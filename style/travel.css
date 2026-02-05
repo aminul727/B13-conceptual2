@@ -6,5 +6,236 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+}
+.hero-travel{
+    display: flex;
+    align-items: center;
+    /* margin-left: 135px; */
+    gap: 16px;
+}
+.hero-travel h2{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #131318;
+}
+.logo{
+    color: #FF5400;
+}
+nav{
+    width: 1178px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 135px;
+    
+}
+.nav-link{
+    display: flex;
+    /* margin-right: 10px; */
+
+}
+.nav-link a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: #131318;
+}
+.nav-link li{
+    list-style: none;
+}
+.home a{
+    color: #FF5400;
+}
+.hero{
+    width: 1170px;
+    /* border: 2px solid red; */
+    border: no;
+    border-radius: 10px;
+    margin-left: 132px;
+    margin-top: 48px;
+    background-image: url(../img/Group\ 13\ \(1\)\ \(1\).png);
+    /* margin-left: 135px;
+    margin-top: 48px;
+    background-image: url(../img/Group\ 13\ \(1\)\ \(1\).png); */
+    background-repeat: no-repeat;
+    
+}
+
+.hero-title{
+    width: 676px;
+    margin-left: 247px;
+    /* margin-top: 106px; */
+    text-align: center;
+    /* width: 800px;
+    margin-top: 106px;
+    margin-left: 185px;
+    text-align: center; */
+    /* border: 2px solid red; */
+    padding-top: 106px;
+}
+.hero-title h1{
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+    color: #FFFFFF
+    
+}
+.hero-title p{
+    color: #FFFFFF;
+    margin-bottom: 58px;
+}
+.hero-container{
+    width: 800;
+    padding-bottom: 20px;
+    /* border: 1px solid red; */
+}
+.btn{
+    width: 700px;
+    /* border: 2px solid red; */
+    margin-left: 240px;
+    text-align: center;
+    padding: 16px 1px;
+    border-radius: 14px;
+    border: none;
+    background-color: #decece;
+    margin-bottom: 90px;
+    /* padding-bottom: 100px; */
+    
+    
+}
+.btn-1{
+    padding: 12px 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.btn-2{
+    padding: 12px 40px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.btn-3{
+    padding: 12px 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FF5400;
+}
+.btn-4{
+    padding: 12px 40px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.tour{
+    width: 1440px;
+}
+.tour-container{
+    width: 1170px;
+    margin-left: 135px;
+    display: flex;
+    margin-top: 100px;
+    gap: 53px;
+}
+.tour-descrip{
+    width: 577px;
+}
+.tour-photo{
+    width: 540px;
+}
+.tour-descrip h2{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 24px;
+}
+.tour-descrip p{
+    margin-bottom: 28px;
+    line-height: 26px;
+}
+.tour-descrip li{
+    margin-bottom: 16px;
+    margin-left: 14px;
+    line-height: 26px;
+}
+.btn-5{
+    padding: 14px 34px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FF5400;
+    color: #FFFFFF;
+    margin-top: 37px;
+}
+
+
+@media screen and (max-width: 576px) {
+    nav{
+        width: 375px;
+        margin-left: 60px;
+    }
+    .nav-link a{
+        display: none;
+    }
+    .hero-travel{
+        margin-left: 1px;
+        padding-left: 1px;
+    }
+    .hero{
+        width: 335px;
+        background-repeat: no-repeat;
+        background: none;
+        background-image: url(../img/Group\ 13\ \(1\)\ \(1\).png);
+        background-repeat: no-repeat;
+        margin-left: 60px;
+
+        
+    }
+    .hero-title{
+        width: 305px;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+    .hero-container{
+        width: 305px;
+        
+    }
+    .btn{
+        width: 305px;
+        margin-left: 16px;
+        padding-top: 6px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        background: none;
+        margin-bottom: 10px;
+
+        
+    }
+    .hero-title p{
+        margin-bottom: 15px;
+    }
+    .tour{
+        width: 335px;
+        
+    }
+    .tour-container{
+        width: 334px;
+        display: inline;
+        
+    }
+    .tour-descrip{
+        width: 332px;
+        margin-left: 70px;
+    }
+    .tour-photo img{
+        width: 332px;
+        margin-left: 65px;
+    }
+    .btn-5{
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+    
 }
