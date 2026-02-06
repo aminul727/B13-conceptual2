@@ -390,6 +390,51 @@ margin-bottom: 24px;
 .deal-title p{
     margin-bottom: 28px;
 }
+.simple{
+    width: 1440px;
+}
+.simple-container{
+    width: 1170px;
+    margin-left: 135px;
+    display: flex;
+    margin-top: 100px;
+    gap: 28px;
+}
+.simple-title h2{
+font-size: 2.25rem;
+font-weight: 800;
+color: #131318;
+margin-bottom: 24px;
+}
+.simple-title p{
+    margin-bottom: 24px;
+}
+.simple-title li{
+    line-height: 26px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+.simple-title button{
+    padding: 13px 40px;
+    background-color: #FF5400;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    margin-top: 44px;
+}
+.simple-photo{
+    position: relative;
+
+}
+.simple-photo strong{
+    position: absolute;
+    top: 42%;
+    left: 28%;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -540,6 +585,31 @@ margin-bottom: 24px;
 }
 .btn-9{
     margin-left: 85px;
+}
+.simple-container{
+    width: 335px;
+    display: inline;
+
+}
+.simple-title{
+    width: 332px;
+    margin-left:74px;
+}
+.simple-title button{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.simple-photo img{
+    width: 335px;
+    margin-left: 65px;
+}
+.simple-photo{
+    position: relative;
+}
+.simple-photo strong{
+    position: absolute;
+    top: 40%;
+    left: 7%;
 }
     
 }
