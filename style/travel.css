@@ -298,6 +298,98 @@ nav{
     font-weight: 800;
     padding-left: 5px;
 }
+.deal-book{
+    position: relative;
+    margin-bottom: 10px;
+}
+.deal-book strong{
+    position: absolute;
+    width: 500px;
+    left: 47%;
+    top: 20%;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #ffffffc1;
+    border-radius: 8px;
+}
+.deal-book .odd{
+    position: absolute;
+    width: 500px;
+    left: 5%;
+    top: 20%;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #ffffffc1;
+    border-radius: 8px; 
+}
+.btn-6{
+    background: none;
+    border: none;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.btn-8{
+    border-radius: 8px;
+    border: none;
+    background: #FF5400;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    margin-bottom: 20px;
+}
+.btn-9{
+    border-radius: 8px;
+    border: none;
+    background: #FF5400;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    margin-left: 480px;
+}
+.deal-book .price{
+    color: #FF5400;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+.deal-book strong h4{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #131318;
+    margin-bottom: 14px;
+    margin-top: 15px;
+}
+.deal-book strong p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.deal{
+    width: 1440px;
+
+}
+.deal-container{
+    width: 1170px;
+    margin-left: 135px;
+}
+.deal-title{
+    width: 643px;
+    margin-left: 250px;
+    text-align: center;
+    margin-top: 100px;
+}
+.deal-title h2{
+font-size: 2.25rem;
+font-weight: 800;
+color: #131318;
+margin-bottom: 24px;
+}
+.deal-title p{
+    margin-bottom: 28px;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -413,6 +505,41 @@ nav{
 .choose-title{
     width: 334px;
     margin-left: -5px;
+}
+.deal-container{
+    width: 335px;
+    margin-left: 69px;
+    
+}
+.deal-title{
+    width: 334px;
+    margin-left: -1px;
+    margin-top: 50px;
+}
+.deal-book{
+    width: 335px;
+    position: relative;
+}
+.deal-book img{
+    width: 335px;
+    height: 480px;
+}
+.deal-book strong{
+    width: 240px;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    border-radius: 30px;
+}
+.deal-book .odd{
+   width: 240px;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    border-radius: 30px;  
+}
+.btn-9{
+    margin-left: 85px;
 }
     
 }
