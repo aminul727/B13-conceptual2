@@ -33,7 +33,7 @@ nav{
 }
 .nav-link{
     display: flex;
-    /* margin-right: 10px; */
+    
 
 }
 .nav-link a{
@@ -43,6 +43,9 @@ nav{
 }
 .nav-link li{
     list-style: none;
+}
+.fa-solid{
+    display: none;
 }
 .home a{
     color: #FF5400;
@@ -122,6 +125,7 @@ nav{
     border-radius: 10px;
     border: none;
     background-color: #FF5400;
+    color: #FFFFFF;
 }
 .btn-4{
     padding: 12px 40px;
@@ -498,6 +502,52 @@ margin-bottom: 24px;
     border: none;
     margin-top: 20px;
 }
+footer{
+    width: 1440px;
+    background: rgba(231, 227, 227, 0.805);
+    margin-top: 100px;
+}
+.logo-f{
+    display: flex;
+    align-items: center;
+    margin-left: 510px;
+    gap: 10px;
+    padding-top: 100px;
+    margin-bottom: 10px;
+}
+.logo-f h2{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #131318;
+}
+.footer-descrip{
+    width: 769px;
+    text-align: center;
+    margin-left: 250px;
+}
+.btn-l{
+    padding: 12px 150px 12px 5px;
+    margin-left: 560px;
+    border: none;
+    margin-top: 15px;
+    background: transparent;
+}
+.fa-brands {
+    margin-right: 15px;
+}
+.copy{
+    margin-left: 190px;
+    width: 872px;
+    margin-top: 10px;
+    border-top: 1px solid rgba(211, 205, 205, 0.795);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+}
+.norn-lay strong {
+    
+}
 
 
 @media screen and (max-width: 576px) {
@@ -710,6 +760,35 @@ margin-bottom: 24px;
 }
 .news-photo span{
     font-size: 1rem;
+}
+footer{
+    width: 335px;
+    margin-top: 15px;
+    margin-left: 63px;
+}
+.logo-f{
+    width: 260px;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.logo-f h2{
+    font-size: 1.6rem;
+}
+.footer-descrip{
+    width: 332px;
+    margin-left: 1px;
+}
+.btn-l{
+    width: 300px;
+    margin-left: 90px;
+}
+.copy{
+    width: 280px;
+    margin-left: 20px;
+}
+.fa-solid{
+    display: inline;
+    margin-right: 5px;
 }
 
     
